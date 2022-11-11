@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Second Page</title>
+    <link rel="shortcut icon" href="images\me_icon_155139.png" type="image/png">
+    <style>
+        .content {
+            max-width: 1080px;
+            margin: auto;
+            padding: 10px;
+            color: whitesmoke;
+            background-color: #4C5958;
+            }
+        .form_input {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <table border="1" width="100%">
+            <tr>
+                <th colspan="2">
+                    <h1>Welcome to my Website</h1> 
+                </th>
+            </tr>
+            <tr>
+                <td width="15%">
+                    <!--This is the navigation site-->
+                    <h3>Navigation</h3>
+                </td>
+                <td>
+                    <!--Here is the content of the website-->
+                    <h3>Content</h3>
+                    <p>This is the second page.</p>
+
+                    <hr>
+                    <h3>Forms</h3>
+                    
+                    <div class="form_input">
+                        <form>
+                            <input type="text" placeholder="Enter your Name">
+                        </form>
+                    </div>
+                    <div class="form_input">
+                        <form>
+                            <input required name="email" type="email" placeholder="max.mustermann@web.de">
+                        </form>
+                    </div>
+                    <div class="form_input">
+                        <form>
+                            <textarea 
+                                name="adress"
+                                cols="50" 
+                                rows="5" 
+                                placeholder="A Placeholder for textare">
+                            </textarea>
+                        </form>
+                    </div>
+                    <div class="form_input">
+                        <select name="selected option">
+                            <option value="value1">This is value one</option>
+                            <option value="value2" selected="selected">This is value two</option>
+                            <option value="value3" disabled="disabled">This is value three</option>
+                        </select>
+                    </div>
+                    <div class="form_input">
+                        <form method="GET" action="somepage.html">
+                            <button type="submit">Submit this form</button>
+                        </form>
+                    </div>
+
+                    <hr>
+                    <h3>Embeds</h3>
+
+                    <div>
+                        <iframe 
+                            width="560" 
+                            height="315" 
+                            src="https://www.youtube.com/embed/lxDwIbYFdew" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    
+
+                    
+                    <div class="form_input">
+                        <a href="..\index\hello_world.html">Back to main page.</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
